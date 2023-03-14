@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.datainmotion.airquality</groupId>
-	<artifactId>airquality</artifactId>
-	<version>1.0.0</version>
-	<name>airquality</name>
-	<description>Demo project for Spring Boot</description>
+	<artifactId>flank-airquality</artifactId>
+	<version>1.0.1</version>
+	<name>flank-airquality</name>
+	<description>flank Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<repositories>
 		<repository>
