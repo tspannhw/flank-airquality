@@ -86,6 +86,9 @@ See:   consumeairquality.py
 
 See:   consumeopenaq.py
 
+### NiFi Flows
+
+See:  AirQuality.json
 
 ##### 1️⃣  Air Quality References
 
