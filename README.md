@@ -1,6 +1,27 @@
-## airquality
+## flank-airquality
 
-Timothy Spann
+Timothy Spann's demo for sending airquality data from Spring-Kafka Java to Kafka.   And from NiFi to Kafka from REST.
+
+
+![FLaNK Diagram](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/airqualityflank2.png)
+
+
+### Demo
+
+
+https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/mavenbuild.png
+
+https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/springrun.png
+
+https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/airqualityproducedrun.png
+
+https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/airqualityschema.png
+
+https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/smmkafkarecords.png
+
+
+
+
 
 ### Setup
 
@@ -57,3 +78,22 @@ export API_KEY=<valueFromYourthing>
        kafkaTemplate.send(producerRecord);
 
 ````
+
+
+##### 1️⃣  Air Quality
+
+Let's use the new Spring to read a ton of Air Quality data for the area.  
+This is a REST feed, no extra equipment needed.
+
+* https://github.com/tspannhw/spring-pulsar-airquality
+* https://github.com/tspannhw/airquality
+* https://github.com/tspannhw/airquality-kafka-consumer
+* https://github.com/tspannhw/airquality-mqtt-consumer
+* https://github.com/tspannhw/FLiPN-AirQuality-REST
+* https://medium.com/@tspann/timeplus-plus-pulsar-is-pure-perfection-a1a4d253031f
+* https://github.com/tspannhw/pulsar-airquality-timeplus
+* https://github.com/tspannhw/FLiPN-AirQuality-Checks
+* https://github.com/tspannhw/airquality-datastore
+* https://github.com/tspannhw/airquality-amqp-consumer
+
+
