@@ -9,16 +9,15 @@ Timothy Spann's demo for sending airquality data from Spring-Kafka Java to Kafka
 ### Demo
 
 
-https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/mavenbuild.png
+![Maven Build](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/mavenbuild.png)
 
-https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/springrun.png
+![Spring Run](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/springrun.png)
 
-https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/airqualityproducedrun.png
+![AQ Produced Run](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/airqualityproducedrun.png)
 
-https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/airqualityschema.png
+![AQ Schema](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/airqualityschema.png)
 
-https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/smmkafkarecords.png
-
+![SMM Kafka Records](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/smmkafkarecords.png)
 
 
 
@@ -79,8 +78,16 @@ export API_KEY=<valueFromYourthing>
 
 ````
 
+### Consume AirQuality Topic
 
-##### 1️⃣  Air Quality
+See:   consumeairquality.py
+
+### Consume OpenAQ Topic
+
+See:   consumeopenaq.py
+
+
+##### 1️⃣  Air Quality References
 
 Let's use the new Spring to read a ton of Air Quality data for the area.  
 This is a REST feed, no extra equipment needed.
@@ -95,5 +102,4 @@ This is a REST feed, no extra equipment needed.
 * https://github.com/tspannhw/FLiPN-AirQuality-Checks
 * https://github.com/tspannhw/airquality-datastore
 * https://github.com/tspannhw/airquality-amqp-consumer
-
-
+* https://kafka-python.readthedocs.io/en/master/usage.html
