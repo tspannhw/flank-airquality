@@ -28,6 +28,7 @@ Timothy Spann's demo for sending airquality data from Spring-Kafka Java to Kafka
 * Set an environment variable with your api key code from airnow
 * Point to your Apache Pulsar cluster, if you are using StreamNative cloud I have SSL and configuration in the config class
 
+
 ### Configuration
 
 ````
@@ -86,11 +87,11 @@ See:   consumeairquality.py
 
 See:   consumeopenaq.py
 
-### NiFi Flows
+### 1️⃣ NiFi Flows
 
 See:  AirQuality.json
 
-##### 1️⃣  Air Quality References
+##### 2️⃣  Air Quality References
 
 Let's use the new Spring to read a ton of Air Quality data for the area.  
 This is a REST feed, no extra equipment needed.
@@ -106,3 +107,8 @@ This is a REST feed, no extra equipment needed.
 * https://github.com/tspannhw/airquality-datastore
 * https://github.com/tspannhw/airquality-amqp-consumer
 * https://kafka-python.readthedocs.io/en/master/usage.html
+
+
+3️⃣ 4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣1️⃣0️⃣
+
+![tim](https://img.shields.io/badge/awesome-tim-lightgrey.svg)
