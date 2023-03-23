@@ -6,7 +6,7 @@ Timothy Spann's demo for sending airquality data from Spring-Kafka Java to Kafka
 ![FLaNK Diagram](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/airqualityflank2.png)
 
 
-### Demo
+### 1️⃣ Demo
 
 
 ![Maven Build](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/mavenbuild.png)
@@ -20,16 +20,14 @@ Timothy Spann's demo for sending airquality data from Spring-Kafka Java to Kafka
 ![SMM Kafka Records](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/smmkafkarecords.png)
 
 
+### 2️⃣ Setup
 
-
-### Setup
-
-* Visual Code with Spring & Java 11
+* Visual Code with Spring & Java 11-17
 * Set an environment variable with your api key code from airnow
 * Point to your Apache Pulsar cluster, if you are using StreamNative cloud I have SSL and configuration in the config class
 
 
-### Configuration
+### 3️⃣ Configuration
 
 ````
 
@@ -52,20 +50,22 @@ logging.level.dev.datainmotion.airquality=INFO
 
 ````
 
-### Build
+### 4️⃣ Build
 
 mvn package
 
 
-### Run
+### 5️⃣ Run
 
 mvn spring-boot:run
 
-### Environment Variables
+### 6️⃣ Environment Variables
 
 export API_KEY=<valueFromYourthing>
 
-### Producing data
+
+
+### 7️⃣ Producing data
 
 ````
 
@@ -79,19 +79,19 @@ export API_KEY=<valueFromYourthing>
 
 ````
 
-### Consume AirQuality Topic
+### 8️⃣ Consume AirQuality Topic
 
 See:   consumeairquality.py
 
-### Consume OpenAQ Topic
+### 9️⃣ Consume OpenAQ Topic
 
 See:   consumeopenaq.py
 
-### 1️⃣ NiFi Flows
+###  1️⃣0️⃣ NiFi Flows
 
 See:  AirQuality.json
 
-##### 2️⃣  Air Quality References
+###  1️⃣1️⃣ Air Quality References
 
 Let's use the new Spring to read a ton of Air Quality data for the area.  
 This is a REST feed, no extra equipment needed.
@@ -108,7 +108,10 @@ This is a REST feed, no extra equipment needed.
 * https://github.com/tspannhw/airquality-amqp-consumer
 * https://kafka-python.readthedocs.io/en/master/usage.html
 
+### 1️⃣2️⃣ Google Bart AI Step Suggestions
 
-3️⃣ 4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣1️⃣0️⃣
+![bart](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/openaqresttokafka.png)
 
-![tim](https://img.shields.io/badge/awesome-tim-lightgrey.svg)
+
+
+&copy; 2023  ![tim](https://img.shields.io/badge/awesome-tim-lightgrey.svg)
