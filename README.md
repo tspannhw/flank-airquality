@@ -89,6 +89,14 @@ See:   consumeopenaq.py
 
 ###  1️⃣0️⃣ NiFi Flows
 
+![nifi](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/openaq_nififlow1.png)
+
+![nifi](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/openaqflow1b.png)
+
+![nifi](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/openaqflow2.png)
+
+
+
 See:  AirQuality.json
 
 ###  1️⃣1️⃣ Air Quality References
@@ -113,5 +121,6 @@ This is a REST feed, no extra equipment needed.
 ![bart](https://raw.githubusercontent.com/tspannhw/flank-airquality/main/images/openaqresttokafka.png)
 
 
+![nifieverywhere](https://github.com/tspannhw/flank-airquality/raw/main/images/dataeverywhere.png)
 
 &copy; 2023  ![tim](https://img.shields.io/badge/awesome-tim-lightgrey.svg)
